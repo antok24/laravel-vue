@@ -13,3 +13,9 @@ Route::get('/posts/{id?}','PostsController@show');
 Route::post('/posts/update/{id?}','PostsController@update');
 Route::delete('/posts/{id?}','PostsController@destroy');
 
+Route::get('/products', 'ProductController@index');
+Route::post('/products/store','ProductController@store');
+Route::get('/products/{id?}','ProductController@show');
+Route::post('/products/update/{id?}','ProductController@update');
+Route::delete('/products/{id?}','ProductController@destroy');
+
