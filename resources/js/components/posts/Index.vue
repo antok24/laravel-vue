@@ -3,7 +3,7 @@
     <div class="row justify-content-center">
       <div class="col-md-12">
         <div class="card card-default">
-          <div class="card-header">Posts</div>
+          <div class="card-header card-primary">Posts</div>
           <div class="card-body">
           <router-link :to="{ name: 'create'}" class="btn btn-md btn-primary">Add Data</router-link>
           <div class="table-responsive mt-2">
