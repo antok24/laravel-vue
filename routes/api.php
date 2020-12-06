@@ -19,4 +19,7 @@ Route::get('/products/{id?}','ProductController@show');
 Route::post('/products/update/{id?}','ProductController@update');
 Route::delete('/products/{id?}','ProductController@destroy');
 
+Route::get('/keranjang', 'KeranjangController@index');
+Route::post('/keranjang/store','KeranjangController@store');
+
 
