@@ -23,10 +23,10 @@ class KeranjangController extends Controller
     public function store(Request $request)
     {
         $validator = Validator::make($request->all(), [
-            'jumlah_pesanan' => 'required',
+            'jumlah_pesan' => 'required',
         ],
             [
-                'jumlah_pesanan.required' => 'Harus diisi !',
+                'jumlah_pesan.required' => 'Harus diisi !',
             ]
         );
 
